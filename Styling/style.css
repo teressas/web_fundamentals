@@ -1,0 +1,28 @@
+.header{
+    background-color: black;
+    font-size: x-large;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#aqua{
+    color:cyan;
+}
+h2{
+    font-style: normal;
+    font-weight: normal;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rebeccapurple;
+    color: white;
+}
+h3{
+    font-family: sans-serif;
+    font-style: normal  ;
+    font-weight: lighter;
+    text-align: right;
+    background-color: lightsteelblue;
+    text-decoration: underline;
+
+}
