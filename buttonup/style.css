@@ -1,0 +1,38 @@
+div{
+
+}
+#button1{
+    color: darkturquoise;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid darkturquoise;
+    border-radius: 20px;
+    width: 100px;
+    height: auto;
+    margin: 5px;
+}
+#button2{
+    color: white;
+    background-color: aquamarine;
+    text-align: center;
+    border: 1px aquamarine;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+#button3{
+    color: white;
+    background-color: dodgerblue;
+    font-size: 14px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black;
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+}
