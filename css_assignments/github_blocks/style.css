@@ -1,0 +1,46 @@
+img.octocat {
+    height: 200px;
+    vertical-align: center;
+}
+#container{
+    background-color: aliceblue;
+    width: 700px;
+    height: 800px;
+    justify-content: space-evenly;
+    border-top: 2px solid black;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: darkslategrey;
+}
+#rowblock1{
+    background-color: skyblue;
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    padding: 10px;
+}
+#rowblock2{
+    background-color: pink;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-around;
+}
+#rowblock3{
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    text-align: center;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: gray;
+}
