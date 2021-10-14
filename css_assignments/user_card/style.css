@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    background-color: white;
+    border: 2px solid lightgray;
+    width: 650px;
+    height: 280px;
+    margin-left: 200px;
+    margin-top: 50px;
+    position: fixed;
+}
+
+#top{
+    background-color: deepskyblue;
+    width: 650px;
+    height: 90px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    top: 100px;
+    padding-left: 30px;
+    position:fixed;
+}
+
+img.icons-profile{
+    height: 70px;
+}
+
+img.icons{
+    height: 15px;
+}
+
+h1{
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p.location{
+    font-size: medium;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+p.details{
+    font-size: small;
+}
+
+p.edit-profile{
+    font-size: smaller;
+    padding-top: 10px;
+}
