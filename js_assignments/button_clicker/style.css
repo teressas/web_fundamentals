@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    overflow: hidden;
+}
+
+.nav{
+    display: flex;
+    background-color: rgb(207, 201, 201);
+    width: 800px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+    border-radius: 3px;
+}
+
+.search-box{
+    border: 2px solid black;
+    background-color: white;
+    color: grey; 
+    width: 300px;
+    height: 20px;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-weight: lighter;
+}
+
+.login{
+    border: 2px solid black;
+    font-size: small;
+    background-color: rgb(0, 132, 255);
+    color: white;
+    width: 60px;
+    height: 25px;
+    box-shadow: 3px 3px black;
+    margin-right: 30px;
+}
+
+.nav-header{
+    font-size: 30px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.main{
+    background-color: white;
+    display: flex;
+}
+
+.col-left{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 500px;
+    height: 200px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.ninja-left{
+    padding-left: 20px;
+    /* padding-top: 20px;
+    height: 150px;  */
+}
+
+.ninja-block > h1, p{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#noun{
+    text-align:center;
+}
+
+.ninja-left > button{
+    border: 2px solid black;
+    color: black;
+    background-color: rgb(221, 187, 35);
+    width: 80px;
+    height: 30px;
+    border-radius: 2px;
+    box-shadow: 2px 2px black;
+}
+
+.ninja-right{
+    width: 250px;
+    padding-left: 30px;
+    /*height: 100px; */
+    /* padding-left: 20px; */
+}
+
+.col-right{
+    /* align-items: center; */
+    width: 300px;
+    height: 200px;
+}
+
+.definition {
+    border: 2px solid black;
+    width: 250px;
+    height: 150px;
+    margin: 30px;  
+    padding: 10px;
+    /* padding-top: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.def-details{
+    padding-left: 10px;
+}
+
+.def-details > h1{
+    font-size: 24px;
+    padding-bottom: 30px;
+
+}
+
+.def-details > button{
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px black;
+    background-color: chartreuse;
+    width: 200px;
+    height: 30px;
+}

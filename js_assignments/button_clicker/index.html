@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="nav-header">
+                Dojonary
+            </div>
+            <div class="search-box">
+                Search
+            </div>
+            <button class="login" onclick="changeLogout(this)">Login</button>
+        </div>
+        <div class="main">
+            <div class="col-left">
+                <div class="card">
+                    <div class="ninja-left">
+                        <h1>ninja</h1>
+                        <p id="noun">noun</p>
+                        <p>Plural: ninjas</p>
+                        <!-- <button onclick="alert('hello')">Click Me!</button> -->
+
+                        <button onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>    
+                    <div class="ninja-right">
+                        <p>A practitioner skilled in the 
+                            <a href="#">Japanese</a>
+                            art of 
+                            <a href="#">ninjutsu</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="ninja-left">
+                        <h1>ninja</h1>
+                        <p id="noun">noun</p>
+                        <p>Plural: ninjas</p>
+                        <button onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>    
+                    <div class="ninja-right">
+                        <p>A practitioner skilled in the 
+                            <a href="#">Japanese</a>
+                            art of 
+                            <a href="#">ninjutsu</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-right">
+                <div class="definition">
+                    <div class="def-details">
+                        <h1>Dojonary is defined by YOU</h1>
+                        <button onclick="hide(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
