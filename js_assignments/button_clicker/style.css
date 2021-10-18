@@ -105,22 +105,12 @@ body{
     /* padding-left: 20px; */
 }
 
-.col-right{
-    /* align-items: center; */
-    width: 300px;
-    height: 200px;
-}
-
 .definition {
     border: 2px solid black;
     width: 250px;
     height: 150px;
     margin: 30px;  
     padding: 10px;
-    /* padding-top: 20px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .def-details{
