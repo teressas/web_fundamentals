@@ -1,0 +1,70 @@
+*{
+    padding 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+.container{
+    width: 1200px;
+    display: flex;
+    padding-left: 100px;
+    padding-top: 50px; 
+}
+
+.col-left{
+    display: flex;
+
+}
+
+#some-user{
+    background-color: white;
+    border-radius: 3px;
+    border: 2px solid black;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+#toprow{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: darkblue;  
+}
+
+#toprow > h1{
+    font-size: 24px;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-right:100px;
+}   
+
+#toprow > p{
+    font-size: 18px;
+    padding: 10px 50px;
+}
+
+#toprow > button{
+    border-radius: 2px;
+    border: 2px solid black; 
+    box-shadow: 3px 3px black;
+    width: 60px;
+    height: 30px;
+    background-color: gold;
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+}
+p{
+    padding-left: 20px;
+    padding-top: 20px; 
+    color: darkblue;  
+    font-size: 18px;
+} 
+
