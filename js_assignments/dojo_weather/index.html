@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojo Weather</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 class="nav-title">Dojo Weather</h1>
+            <ul class="nav-links">
+                <li onclick="alert('You selected a Burbank')">Burbank</li>
+                <li onclick="alert('You selected a Chicago')">Chicago</li>
+                <li onclick="alert('You selected a Dallas')">Dallas</li>
+            </ul>
+        </div>  
+
+        <div class="centered">
+            <div class="header">San Jose</div>
+            <div>
+                <label>show temperature in </label>
+                <select>
+                    <option>C</option>
+                    <option>F</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="weatherblock">
+                    <h2>Today</h2>
+                    <img src="assets/some_rain.png" alt="some_rain">
+                    <span>some rain</span>
+                    <div class="temp">
+                        <div class="red-temp">
+                            <span>24&#176;</span>
+                        </div>
+                        <div class="blue-temp">
+                            <span>18&#176;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="weatherblock">
+                    <h2>Tomorrow</h2>
+                    <img src="assets/some_sun.png" alt="some_sun">
+                    <span>some rain</span>
+                    <div class="temp">
+                        <div class="red-temp">
+                            <span>27&#176;</span>
+                        </div>
+                        <div class="blue-temp">
+                            <span>19&#176;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="weatherblock">
+                    <h2>Friday</h2>
+                    <img src="assets/some_clouds.png" alt="some_clouds">
+                    <span>some rain</span>
+                    <div class="temp">
+                        <div class="red-temp">
+                            <span>21&#176;</span>
+                        </div>
+                        <div class="blue-temp">
+                            <span>16&#176;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="weatherblock">
+                    <h2>Saturday</h2>
+                    <img src="assets/some_sun.png" alt="some_sun2">
+                    <span>some rain</span>
+                    <div class="temp">
+                        <div class="red-temp">
+                            <span>26&#176;</span>
+                        </div>
+                        <div class="blue-temp">
+                            <span>21&#176;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div id="cookies">
+        <!-- <div> -->
+        <img src="assets/cookie.png" alt="cookie">
+        <!-- </div> -->
+        <div id="policy">
+            <h2>Stop! Cookie time</h2>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads to provide social media features and to analyse our traffic.
+                <a href="#">Read more...</a>
+            </p>
+        </div>
+        <div id="accept">
+            <button onclick="hide(this)">I Accept</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
