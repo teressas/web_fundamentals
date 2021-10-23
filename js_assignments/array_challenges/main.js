@@ -27,7 +27,6 @@ function highPass(arr, cutoff) {
     for (var i=0; i < arr.length; i++){
         if(arr[i] > cutoff){
             filteredArr.push(arr[i]);
-            //filteredArr = arr[i];
         } 
     }
     return filteredArr;
@@ -43,7 +42,7 @@ function betterThanAverage(arr) {
     for(i=0; i < arr.length; i++){
         sum += arr[i];   
     }
-    avg = sum/arr.length;
+    var avg = sum/arr.length;
     var count = 0
     // count how many values are greated than the average
     for(i=0; i < arr.length; i++){
@@ -81,6 +80,7 @@ function fibonacciArray(n) {
     var fibArr = [0, 1];
     // your code here
     for (var i=0; i < n-2; i++){
+        //n-2 because you have the 1st two indexes in the array
         sum =+ fibArr[i] + fibArr[fibArr.length-1];
         fibArr.push(sum);
     }
